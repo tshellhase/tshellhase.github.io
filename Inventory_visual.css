@@ -1,9 +1,13 @@
 @charset "utf-8";
 
 /*
-
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 4
+   Tutorial Case
+   
+   Visual Effects Style Sheet for Photo Page at Tree and Book
     Author: Tayler Shellhase
-    Date:   Spring 2023
+    Date:   4/4/23
    
    Filename: inventory_visual.css
    
@@ -17,30 +21,26 @@ article {
 }
 
 figure#figure1 {
-	box-shadow: 2px 0px 2px 2px rgb(118, 155, 181);
-	border-radius: 40%;
+	box-shadow: 
 }
 
 figure#figure2 {
-	box-shadow: 2px 0px 2px 2px rgb(118, 155, 181);
-	border-radius: 40%;
+	box-shadow:
 }
 
 figure#figure3 {
-	box-shadow: 2px 0px 2px 2px rgb(118, 155, 181);
-	border-radius: 40%;
+
+	box-shadow: 
 }
 
 /* Filter Styles */
 
 figure#figure1 {
-	-webkit-filter: brightness(102%);
 }
 figure#figure2 {
-	-webkit-filter: brightness(95%);
+
 }
 figure#figure3 {
-	-webkit-filter: brightness(110%);
 }
 
 
