@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/*
+
+    Author: Tayler Shellhase
+    Date:   Spring 2023
+   
+   Filename: inventory_visual.css
+   
+
+*/
+
+
+/* Transformation Styles */
+article {
+	perspective: 600px;
+}
+
+figure#figure1 {
+	box-shadow: 2px 0px 2px 2px rgb(118, 155, 181);
+	border-radius: 40%;
+}
+
+figure#figure2 {
+	box-shadow: 2px 0px 2px 2px rgb(118, 155, 181);
+	border-radius: 40%;
+}
+
+figure#figure3 {
+	box-shadow: 2px 0px 2px 2px rgb(118, 155, 181);
+	border-radius: 40%;
+}
+
+/* Filter Styles */
+
+figure#figure1 {
+	-webkit-filter: brightness(102%);
+}
+figure#figure2 {
+	-webkit-filter: brightness(95%);
+}
+figure#figure3 {
+	-webkit-filter: brightness(110%);
+}
+
+
+
+
+
+
+
+
