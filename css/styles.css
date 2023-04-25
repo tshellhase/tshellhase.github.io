@@ -1,0 +1,190 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author:   Tayler Shellhase
+   Date:     Spring 2023
+   
+  
+
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(158, 161, 163);;
+}
+
+#container {
+    width: 935px;
+    border-width: 1px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+header {
+    width: 910px;	/* reduced by 20px to accommodate shadow */
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid #888888;
+    box-shadow: 15px 15px 5px 0 #888888;
+    border-radius: 25px;  	
+}
+
+nav {
+    width: 200px;
+    margin: 0 5px 0 5px; 
+    padding: 25px 10px 0 10px;
+    float: left;
+    text-align: center;
+}
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 5px;
+    color: gray;
+    text-decoration: none;
+    display:block;
+}
+
+nav ul li a:hover {
+    background: rgb(118, 155, 181);
+    border-radius: 10px;
+    color: white;
+}
+
+#main {
+    width: 446px;
+    padding: 10px;
+    float: left;
+    color: black;
+    border-left: 2px solid;
+    border-right: 2px solid;    
+}
+
+#main p {
+    text-indent: 1.5em;
+}
+
+figure{
+    padding-top: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+aside {
+    width: 200px;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+    float: right;
+}
+
+aside p {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+h2 {
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+footer {
+    width: 910px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(118, 155, 181);
+    clear: both;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+#wrapper {
+    width: 930px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+}/* navigation for footer */
+footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: black;
+    background-color: grey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* Transformation Styles */
+article {
+	perspective: 600px;
+}
+
+figure#figure1 {
+	box-shadow: 2px 0px 2px 2px rgb(118, 155, 181);
+	border-radius: 40%;
+}
+
+figure#figure2 {
+	box-shadow: 2px 0px 2px 2px rgb(118, 155, 181);
+	border-radius: 40%;
+}
+
+figure#figure3 {
+	box-shadow: 2px 0px 2px 2px rgb(118, 155, 181);
+	border-radius: 40%;
+}
+
+figure#figure4 {
+	
+}
+
+/* Filter Styles */
+
+figure#figure1 {
+	-webkit-filter: brightness(102%);
+}
+figure#figure2 {
+	-webkit-filter: brightness(95%);
+}
+figure#figure3 {
+	-webkit-filter: brightness(110%);
+}
+
+/* Text Area Styles */
+
+textarea {
+	margin-top: 10px;
+	height: 100px;
+	width: 95%;
+	
